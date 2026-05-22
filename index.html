@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="現代化網站架構範例">
+    <title>網站架構 - 首頁</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Logo</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">首頁</a></li>
+                <li><a href="pages/about.html">關於我們</a></li>
+                <li><a href="pages/services.html">服務</a></li>
+                <li><a href="pages/contact.html">聯絡我們</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 頁首 Banner -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>歡迎來到我們的網站</h1>
+            <p>建立現代化的網站架構</p>
+            <button class="btn btn-primary">開始探索</button>
+        </div>
+    </header>
+
+    <!-- 主要內容 -->
+    <main class="main-content">
+        <section class="features">
+            <div class="container">
+                <h2>主要特性</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>響應式設計</h3>
+                        <p>完美適配各種設備，從手機到桌面電腦</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>快速載入</h3>
+                        <p>優化的代碼和資源，確保快速的頁面載入</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>易於維護</h3>
+                        <p>清晰的架構和代碼結構，方便後期維護</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h2>訂閱我們的電子報</h2>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" placeholder="輸入您的電子郵件" required>
+                    <button type="submit" class="btn btn-primary">訂閱</button>
+                </form>
+                <div id="message" class="message"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 網站架構範例。版權所有。</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+</html>
